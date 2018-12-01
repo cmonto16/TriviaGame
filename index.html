@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Trivia Game</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="title">
+            <strong>Disney Trivia</strong>
+        </h1>
+
+        <!--Start button-->
+
+        <div id="buttons">
+            <button id="start">Start</button>
+        </div>
+
+        <div id="display">Time Remaining: 00:30</div>
+
+        <!--Questions-->
+        <form id="quiz" name="quiz">
+            <p>1. In "The Little Mermaid," who is NOT one of Triton’s daughter?</p>
+            <input type="radio" name="question1" value="Andrina"> Andrina<br>
+            <input type="radio" name="question1" value="Adora"> Adora<br>
+            <input type="radio" name="question1" value="Attina"> Attina<br>
+            <input type="radio" name="question1" value="Alana"> Alana<br>
+
+            <p>2. Which phrase does the Evil Queen in "Snow White" actually say?</p>
+            <input type="radio" name="question2" value="Mirror1"> “Mirror, mirror, on the wall — who is the
+            fairest of them all?”<br>
+            <input type="radio" name="question2" value="Mirror2"> “Magic mirror, on the wall — who is the fairest
+            one of all?”<br>
+            <input type="radio" name="question2" value="Mirror3"> “Mirror, mirror, on the wall — who is the fairest
+            one of all?”<br>
+            <input type="radio" name="question2" value="Mirror4"> “Magic mirror, on the wall — who is the fairest
+            of them all?”<br>
+
+            <p>3. In the movie "Tangled," Flynn Rider is wanted dead or alive according to his wanted poster
+                because he's a... </p>
+            <input type="radio" name="question3" value="Bandit"> Bandit<br>
+            <input type="radio" name="question3" value="Thief"> Thief<br>
+            <input type="radio" name="question3" value="Treasonist"> “Treasonist”<br>
+            <input type="radio" name="question3" value="Robber"> “Robber”<br>
+
+            <p>4. Which glass slipper did Cinderella leave behind at the ball?</p>
+            <input type="radio" name="question4" value="Left"> Left<br>
+            <input type="radio" name="question4" value="Right"> Right<br>
+
+            <p>5. In "Sleeping Beauty," what is the name of Maleficent’s pet raven? </p>
+            <input type="radio" name="question5" value="Diablo"> Diablo<br>
+            <input type="radio" name="question5" value="Malum"> Malum<br>
+            <input type="radio" name="question5" value="Mauvais"> “Mauvais”<br>
+            <input type="radio" name="question5" value="Diable"> “Diable”<br>
+
+            <p>6. In "Pocahontas," what did Pocahontas see in her dream that made her believe that a change was
+                coming? </p>
+            <input type="radio" name="question6" value="Arrow"> A spinning arrow<br>
+            <input type="radio" name="question6" value="Cloud"> A strange cloud formation<br>
+            <input type="radio" name="question6" value="Hawk"> “A hawk circling her village”<br>
+            <input type="radio" name="question6" value="Fire"> “A burning blue fire”<br>
+
+            <p>7. In "The Lion King," what side of Scar's face is his scar on? </p>
+            <input type="radio" name="question7" value="Left"> Left<br>
+            <input type="radio" name="question7" value="Right"> Right<br>
+
+            <p>8. In "Frozen," how many brothers does Hans have? </p>
+            <input type="radio" name="question8" value="7"> 7<br>
+            <input type="radio" name="question8" value="9"> 9<br>
+            <input type="radio" name="question8" value="12"> 12<br>
+            <input type="radio" name="question8" value="15"> 15<br>
+
+            <p>9. In "Aladdin," what does Aladdin, and a reluctant Abu, give to the poor children to eat? </p>
+            <input type="radio" name="question9" value="Dates"> Dates<br>
+            <input type="radio" name="question9" value="Apples"> Apples<br>
+            <input type="radio" name="question9" value="Bread"> Bread<br>
+            <input type="radio" name="question9" value="Cheese"> Cheese<br>
+
+            <p>10. In "Alice in Wonderland," aside from a pocket watch, what else is the White Rabbit holding when
+                Alice encounters him? </p>
+            <input type="radio" name="question10" value="Cane"> A cane<br>
+            <input type="radio" name="question10" value="Umbrella"> An umbrella<br>
+            <input type="radio" name="question10" value="Hat"> A top hat<br>
+            <input type="radio" name="question10" value="All"> All of the above<br>
+
+            <!--Need an Times up!, Correct Answers, Wrong Answers and Unanswered when the timer finishes.-->
+
+        </form>
+
+        <div id="after-timer">
+            <p id="timer-ends">Times up!</p>
+            <p>Correct Answers</p>
+            <p id="correct">0</p>
+            <p>Wrong Answers</p>
+            <p id="wrong">0</p>
+            <p>Unanswered</p>
+            <p id="unanswered">0</p>
+
+        </div>
+    </div>
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Script -->
+    <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>

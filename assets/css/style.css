@@ -1,0 +1,24 @@
+
+#quiz {
+    display: none;
+    text-align: left;
+    margin: 50px;
+}
+
+#after-timer {
+    display: none;
+}
+
+body {
+    background: url("../images/3LBX9VI.jpg") no-repeat center center fixed;
+    text-align: center;
+}
+
+.container {
+    background-color: rgb(255, 175, 248);
+    margin: 100px;
+}
+
+.title {
+    color: darkblue;
+}
